@@ -1,0 +1,4 @@
+PyPDF2
+ollama
+pandas
+openpyxl>=3.1.0

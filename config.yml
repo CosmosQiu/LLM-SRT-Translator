@@ -1,0 +1,7 @@
+api:
+  deepseek:
+    base_url: "https://api.deepseek.com"
+    api_key: "your token"
+    
+  ollama:
+    base_url: "http://localhost:11434" 

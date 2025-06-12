@@ -246,7 +246,7 @@ def split_subtitle_file(file_path, chunk_size=100):
 
 def process_subtitle_with_deepseek(chunk):
     """处理字幕片段并调用API"""
-    client = OpenAI(api_key="sk-8880397704b64ed3868a64e3aef5e91c", base_url="https://api.deepseek.com")
+    client = OpenAI(api_key="", base_url="https://api.deepseek.com")
     
     # 构建字幕文本
     subtitle_text = "\n".join([f"{s['number']}\n{s['timestamp']}\n{s['text']}" for s in chunk])

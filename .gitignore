@@ -1,0 +1,16 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# 其他常见Python项目忽略项
+.vscode/
+.env
+*.log
+
+# 本地忽略项
+org-files/
+opt/
